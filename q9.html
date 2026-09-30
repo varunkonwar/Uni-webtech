@@ -1,0 +1,67 @@
+<!-- Use HTML5 semantic tags (such as <header>, <nav>, <section>, <article>, <footer>) to 
+structure and organize content on a webpage. -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantics</title>
+
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+      }
+      * {
+        text-align: center;
+      }
+
+      nav {
+        border: 1px solid black;
+        padding: 20px;
+      }
+
+      main {
+        display: flex;
+        flex: 1;
+        
+      }
+      main aside, 
+      main figure {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header Section</h1>
+
+      <nav>
+        <h1>Navigation Section</h1>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contacts</a>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <aside style="width: 30%;">
+        <article>Article Section</article>
+      </aside>
+
+      <figure style="width: 70%;">
+        <h1>Main Content</h1>
+        <img src="assests/chicken.jpg" width="300px" />
+      </figure>
+    </main>
+    <hr />
+
+    <footer>
+      <p>Copyright 2026</p>
+    </footer>
+  </body>
+</html>

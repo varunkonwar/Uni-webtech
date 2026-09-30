@@ -1,0 +1,64 @@
+<!-- Apply different background colors to alternate rows in a table.  -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>colourful table</title>
+
+    <style>
+      .container {
+        display: flex;
+        background-color: bisque;
+        border: none;
+        padding: 40px;
+        margin: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      #row1 {
+        background-color: beige;
+      }
+      #row2{
+        background-color:darkseagreen;
+      }
+      #row3 {
+        background-color: beige;
+      }
+      #row4{
+        background-color:darkseagreen;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="container">
+      <tr id="row1">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Occupation</th>
+      </tr>
+      <tr id="row2">
+        <td>John Doe</td>
+        <td>21</td>
+        <td>Software Eng.</td>
+      </tr>
+      <tr id="row3">
+        <td>Tim Cook</td>
+        <td>56</td>
+        <td>Apple (CEO)</td>
+      </tr>
+      <tr id="row4">
+        <td>Varun Konwar</td>
+        <td>21</td>
+        <td>Cs Student</td>
+      </tr>
+    </table>
+  </body>
+</html>

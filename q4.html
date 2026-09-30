@@ -1,0 +1,51 @@
+<!-- Create a table with multiple rows and columns to display tabular data.  -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Basic Table</title>
+
+    <style>
+        .container {
+            display: flex;
+            background-color: aquamarine;
+            border: none;
+            padding: 40px;
+            margin: 30px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        table, th, td{
+            border: 2px solid black;
+            background-color: aliceblue;
+            border-collapse: collapse;
+        }
+        </style>
+ </head>
+ <body>
+    <table class="container">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Occupation</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>21</td>
+            <td>Software Eng.</td>
+        </tr>
+        <tr>
+            <td>Tim Cook</td>
+            <td>56</td>
+            <td>Apple (CEO)</td>
+        </tr>
+        <tr>
+            <td>Varun Konwar</td>
+            <td>21</td>
+            <td>Cs Student</td>
+        </tr>
+    </table>
+ </body>
+ </html>
