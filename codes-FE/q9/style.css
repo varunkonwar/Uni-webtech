@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+* {
+  text-align: center;
+}
+
+nav {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+main aside,
+main figure {
+  border: 1px solid black;
+}
